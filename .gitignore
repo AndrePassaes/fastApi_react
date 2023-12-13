@@ -128,6 +128,24 @@ ENV/
 env.bak/
 venv.bak/
 
+# node dependencies
+fastapireact_frontend/node_modules
+fastapireact_frontend/.pnp
+fastapireact_frontend/.pnp.js
+
+# testing
+fastapireact_frontend/coverage
+
+# production
+fastapireact_frontend/build
+
+#misc
+fastapireact_frontend/DS_Store
+fastapireact_frontend/.env.local
+fastapireact_frontend/.env.development.local
+fastapireact_frontend/.env.test.local
+fastapireact_frontend/.env.production.local
+
 # Spyder project settings
 .spyderproject
 .spyproject
